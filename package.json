@@ -6,7 +6,11 @@
     "build": "tsc && vite build",
     "serve": "vite preview"
   },
+    "dependencies": {
+    "codemirror": "^5.63.3"
+  },
   "devDependencies": {
+    "@types/codemirror": "^5.60.5",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "eslint": "^8.2.0",
